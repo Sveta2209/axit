@@ -1,0 +1,124 @@
+.tabs{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.navigation{
+    width: 100%;
+    height: 40px;
+    display: flex;
+
+}
+
+.navigation__tab1{
+    width: 17%;
+    height: 40px;
+    border-radius: 5px 5px 0px 0px;
+    border-top: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    color: #333;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.navigation__tab2{
+    width: 16%;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+    color: #333;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.navigation__tab3{
+    width: 16%;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+    color: #333;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.navigation__tab4{
+    width: 51%;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+    color: transparent;
+    display: inline-block;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.tab-box{
+    width: 100%;
+    height: 501px;
+    margin: 2px;
+    display: flex;
+}
+
+.tab-box__text{
+    width: 60%;
+    height: 501px;
+    display: inline-block;
+    margin: -2px;
+    border-bottom: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+}
+
+.tab-box__text-main{
+    width: 570px;
+    height: 124px;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-left: 100px;
+    font-family: Open Sans;
+    font-size: 30px;    
+    line-height: 124px;
+}
+
+.tab-box__text-additional{
+    width: 570px;
+    margin-top: 0px;
+    margin-bottom: 27px;
+    margin-right: 0px;
+    padding-left: 100px;
+    padding-top: 0px;
+    font-family: Raleway;
+    font-size: 18px;
+}
+
+.tab-box__text-paragraph{
+    margin: 0px;
+}
+
+.tab-box__text-button{
+    width: 270px;
+    height: 58px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    background-color: rgba(236,121,121,1);
+    line-height: 58px;
+}
+
+.tab-box__photo{
+    width: 40%;
+}
+
+.tab-box__photo-USA{
+    width: 469px;
+    height: 500px;
+    margin: -1px;
+}
