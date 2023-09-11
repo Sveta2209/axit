@@ -64,7 +64,7 @@
     display: flex;
 }
 
-.tab-box__text{
+.tab-box-text{
     width: 60%;
     height: 501px;
     display: inline-block;
@@ -73,7 +73,7 @@
     border-left: 1px solid #C6CBCD;
 }
 
-.tab-box__text-main{
+.tab-box-text__main{
     width: 570px;
     height: 124px;
     margin-top: 0px;
@@ -84,7 +84,7 @@
     line-height: 124px;
 }
 
-.tab-box__text-additional{
+.tab-box-text__additional{
     width: 570px;
     margin-top: 0px;
     margin-bottom: 27px;
@@ -95,11 +95,11 @@
     font-size: 18px;
 }
 
-.tab-box__text-paragraph{
+.tab-box-text__paragraph{
     margin: 0px;
 }
 
-.tab-box__text-button{
+.tab-box-text__button{
     width: 270px;
     height: 58px;
     margin-left: 100px;
@@ -112,11 +112,11 @@
     line-height: 58px;
 }
 
-.tab-box__photo{
+.tab-box-photo{
     width: 40%;
 }
 
-.tab-box__photo-USA{
+.tab-box-photo__USA{
     width: 469px;
     height: 500px;
     margin: -1px;
