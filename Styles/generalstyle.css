@@ -1,0 +1,28 @@
+.caption{
+    width: 1170px;
+    height: 280px;
+}
+
+.caption__title{
+    width: 1170px;
+    height: 90px;
+    padding: 70px 10px 5px 10px;
+    margin: 0 auto;
+    font-family:'Raleway';
+    font-size: 36px;
+    text-align: center;
+}
+.caption__line{
+    border-bottom: 1px solid;
+    width: 170px;
+    color: rgba(236, 121, 121, 1);
+}
+
+.caption__subtitle{
+    width: 1169px;
+    height: 21px;
+    color: rgba(134, 135, 139, 1);
+    font-family:'Raleway';
+    font-size: 18px;
+    text-align: center;
+}
