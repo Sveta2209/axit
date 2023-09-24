@@ -18,7 +18,7 @@
     border-right: 1px solid #C6CBCD;
     color: #333;
     text-align: center;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 14px;
     line-height: 40px;
 }
@@ -29,7 +29,7 @@
     border-bottom: 1px solid #C6CBCD;
     color: #333;
     text-align: center;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 14px;
     line-height: 40px;
 }
@@ -40,7 +40,7 @@
     border-bottom: 1px solid #C6CBCD;
     color: #333;
     text-align: center;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 14px;
     line-height: 40px;
 }
@@ -52,7 +52,7 @@
     color: transparent;
     display: inline-block;
     text-align: center;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 14px;
     line-height: 40px;
 }
@@ -79,7 +79,7 @@
     margin-top: 0px;
     margin-right: 0px;
     padding-left: 100px;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 30px;    
     line-height: 124px;
 }
@@ -106,10 +106,11 @@
     margin-bottom: 50px;
     color: #FFF;
     text-align: center;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 18px;
     background-color: rgba(236,121,121,1);
     line-height: 58px;
+    border: none;
 }
 
 .tab-box-text__button_hover_active:hover{
