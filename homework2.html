@@ -8,11 +8,67 @@
     <link rel="stylesheet" href="./Styles/style.css">
     <link rel="stylesheet" href="./Styles/styletabs.css">
     <link rel="stylesheet" href="./Styles/styleprices.css">
-    <link rel="stylesheet" href="./Styles/customerstyle.css"
+    <link rel="stylesheet" href="./Styles/customerstyle.css">
+    <link rel="stylesheet" href="./Styles/designstyles.css">
+    <link rel="stylesheet" href="./Styles/headerstyles.css">
+    <link rel="stylesheet" href="./Styles/socialmediastyles.css">
+    <link rel="stylesheet" href="./Styles/footerstyles.css">
+    <link rel="stylesheet" href="./Styles/contactstyles.css">
+    <link rel="stylesheet" href="./Styles/bannerstyles.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        <div class="main-head">
+            <img src="./IMG/logo.svg" alt="logo" class="main-head__logo">
+            <nav class="main-head__navigation">Features</nav>
+            <nav class="main-head__navigation">About</nav>
+            <nav class="main-head__navigation">Pricing</nav>
+            <nav class="main-head__navigation">Reviews</nav>
+            <nav class="main-head__navigation">Contact</nav>
+        </div>
+    </header>
+    <section class="banner-axit">
+        <div class="axit-box">
+            <div class="left-axitbox">
+                <div class="left-axitbox__logo">
+                    <img src="./IMG/AXIT1.svg" alt="logo-AX" class="left-axitbox__logo">
+                    <img src="./IMG/AXIT2.svg" alt="logo-AX" class="left-axitbox__logo">
+                </div>
+                <h1 class="left-axitbox__majortext">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                <hr class="left-axitbox__line">
+                <h5 class="left-axitbox__minortext">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+                <button type="button" class="left-axitbox__button_hover_active">Download</button>
+            </div>
+            <div class="right-axitbox">
+                <h4 class="right-axitbox__caption">TRY YOUR <span class="right-axitbox__colorworld">FREE</span> TRIAL TODAY</h4>
+                <form class="get-started">
+                    <input type="text" name="name" placeholder="Name" class="get-started__text" required>
+                    <input type="email" name="email" placeholder="Email" class="get-started__text" required>
+                    <input type="password" name="password" placeholder="Password" class="get-started__text" required>
+                    <button type="submit" class="get-started__button_hover_active">Get Started</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="social-media">
+        <div class="sm-details">
+            <div class="sm-details-text">
+                <h4 class="sm-details-text__main">Social Media</h4>
+                <h5 class="sm-details-text__minor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</h5>
+            </div>
+            <div class="sm-icons">
+            <img src="./IMG/facebook_icon.svg" alt="facebook" class="sm-icons__item">
+            <img src="./IMG/twitter_icon.svg" alt="twitter" class="sm-icons__item">
+            <img src="./IMG/linkedin_icon.svg" alt="linkedin" class="sm-icons__item">
+            <img src="./IMG/pinterest_icon.svg" alt="pinterest" class="sm-icons__item">
+            <img src="./IMG/instagram_icon.svg" alt="instagram" class="sm-icons__item">
+            <img src="./IMG/github_icon.svg" alt="github" class="sm-icons__item">
+            <img src="./IMG/rss_icon.svg" alt="rss" class="sm-icons__item">
+            </div>
+        </div>
+    </section>
     <section class="container">
         <section class="tabs">
             <div class="navigation">
@@ -25,7 +81,7 @@
                 <div class="tab-box-text">
                     <h3 class="tab-box-text__main">Tabs with soft transitioning effect.</h3>
                     <h5 class="tab-box-text__additional">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br> euismod <br> bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et <br> viverra <br> justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque <br> penatibus et magnis dis parturient montes. <p class="tab-box-text__paragraph"></p> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br> euismod <br> bibendum laoreet.</h5>
-                    <div class="tab-box-text__button_hover_active">Download</div>
+                    <button type="button" class="tab-box-text__button_hover_active">Download</button>
                 </div>
                 <div class="tab-box-photo">
                     <img src="./IMG/Rectangle 111.png" alt="statue-of-liberty" class="tab-box-photo__USA">
@@ -142,5 +198,49 @@
             </div>
         </section>
     </section>
+    <section class="container4">
+        <section class="design">
+            <div class="caption-type2">
+                <h2 class="caption-type2__title">STYLISH AXURE DESIGN</h2>
+                <hr class="caption-type2__line">
+                <h5 class="caption-type2__subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h5>
+            </div>
+            <button type="button" class="design-button_hover_active">Download</div>
+        </section>
+    </section>
+    <section class="contact-us">
+        <div class="caption">
+            <h2 class="caption__title">CONTACT US</h2>
+            <hr class="caption__line">
+            <h5 class="caption__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        </div>
+        <div class="contact-details">
+            <form class="about-me">
+                <input type="text" name="name" placeholder="Name" class="about-me__text" required>
+                <input type="email" name="email" placeholder="Email" class="about-me__text" required>
+                <input type="password" name="password" placeholder="Password" class="about-me__text" required>
+            </form>
+            <form class="message">
+                <textarea name="text" placeholder="Message" class="message__text" required></textarea>
+            </form>
+        </div>
+        <form class="button-about-me">
+            <button type="submit" class="button-about-me__send-message_hover_active">Send Message</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-menu">
+            <div class="footer-details">
+                <img src="./IMG/facebook_footer.svg" alt="facebook_icon" class="footer-details__icon">
+                <img src="./IMG/twitter_footer.svg" alt="twitter_icon" class="footer-details__icon">
+                <img src="./IMG/linkedin_footer.svg" alt="linkedin_icon" class="footer-details__icon">
+                <img src="./IMG/pinterest_footer.svg" alt="pinterest_icon" class="footer-details__icon">
+                <img src="./IMG/instagram_footer.svg" alt="instagram_icon" class="footer-details__icon">
+                <img src="./IMG/github_footer.svg" alt="github_icon" class="footer-details__icon">
+                <img src="./IMG/rss_footer.svg" alt="rss_icon" class="footer-details__icon">
+            </div>
+            <h5 class="footer-text">© 2015 Axure Themes</h5>
+        </div>
+    </footer>
 </body>
 </html>

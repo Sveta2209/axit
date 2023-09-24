@@ -1,0 +1,31 @@
+.header{
+    width: 100%;
+    background-color: black;
+    height: 75px;
+    margin: 0px;
+}
+
+.main-head{
+    width: 1170px;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main-head__logo{
+    width: 184px;
+    height: 100%;
+    margin-right: 416px;
+}
+
+.main-head__navigation{
+    width: 114px;
+    height: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 75px;
+    flex-shrink: 0;
+}
