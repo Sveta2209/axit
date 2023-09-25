@@ -21,12 +21,14 @@
 <body>
     <header class="header">
         <div class="main-head">
-            <img src="./IMG/logo.svg" alt="logo" class="main-head__logo">
-            <nav class="main-head__navigation">Features</nav>
-            <nav class="main-head__navigation">About</nav>
-            <nav class="main-head__navigation">Pricing</nav>
-            <nav class="main-head__navigation">Reviews</nav>
-            <nav class="main-head__navigation">Contact</nav>
+            <img src="./IMG/logo.svg" alt="logo" class="main-head-logo">
+            <nav class="main-head-navigation">
+                <a class="main-head-navigation__link" href="">Features</a>
+                <a class="main-head-navigation__link" href="">About</a>
+                <a class="main-head-navigation__link" href="">Pricing</a>
+                <a class="main-head-navigation__link" href="">Reviews</a>
+                <a class="main-head-navigation__link" href="">Contact</a>
+            </nav>
         </div>
     </header>
     <section class="banner-axit">
@@ -214,18 +216,20 @@
             <hr class="caption__line">
             <h5 class="caption__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
         </div>
-        <div class="contact-details">
-            <form class="about-me">
-                <input type="text" name="name" placeholder="Name" class="about-me__text" required>
-                <input type="email" name="email" placeholder="Email" class="about-me__text" required>
-                <input type="password" name="password" placeholder="Password" class="about-me__text" required>
-            </form>
-            <form class="message">
-                <textarea name="text" placeholder="Message" class="message__text" required></textarea>
-            </form>
-        </div>
-        <form class="button-about-me">
-            <button type="submit" class="button-about-me__send-message_hover_active">Send Message</button>
+        <form class="contact-details">
+            <div class="about">
+                <div class="about-me">
+                    <input type="text" name="name" placeholder="Name" class="about-me__text" required>
+                    <input type="email" name="email" placeholder="Email" class="about-me__text" required>
+                    <input type="password" name="password" placeholder="Password" class="about-me__text" required>
+                </div>
+                <div class="message">
+                    <textarea name="text" placeholder="Message" class="message__text" required></textarea>
+                </div>
+            </div>
+            <div class="button-about-me">
+                <button type="submit" class="button-about-me__send-message_hover_active">Send Message</button>
+            </div>
         </form>
     </section>
     <footer class="footer">

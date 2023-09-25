@@ -5,6 +5,11 @@
 }
 
 .contact-details{
+    width: 1170px;
+    margin-top: 20px;
+}
+
+.about{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -26,6 +31,7 @@
     font-size: 14px;
     border: none;
     border-bottom: 1px solid rgba(189,189,189,1);
+    outline: none;
 }
 
 .message{
@@ -42,6 +48,7 @@
     border: none;
     border-bottom: 1px solid rgba(189,189,189,1);
     resize: none;
+    outline: none;
 }
 
 .button-about-me{

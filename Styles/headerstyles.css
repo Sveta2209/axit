@@ -12,13 +12,20 @@
     display: flex;
 }
 
-.main-head__logo{
+.main-head-logo{
     width: 184px;
     height: 100%;
     margin-right: 416px;
 }
 
-.main-head__navigation{
+.main-head-navigation{
+    width: 570px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-head-navigation__link{
     width: 114px;
     height: 100%;
     color: #FFF;
@@ -28,4 +35,5 @@
     font-weight: 600;
     line-height: 75px;
     flex-shrink: 0;
+    text-decoration: none;
 }
