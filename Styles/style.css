@@ -11,14 +11,18 @@
 .details{
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .details-box{
-    width: 370px;
+    width: 30%;
     height: 383px;
     border-radius: 100px;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .details-box__icon{
@@ -27,17 +31,94 @@
 }
 
 .details-box__title{
-    width: 369px;
-    height: 35px;
+    width: 100%;
+    height: 100px;
     font-family: 'Open Sans';
     font-size: 24px;
-    text-align: center;
+    margin: 0px;
 }
 
 .details-box__text{
-    width: 370px;
-    height: 50px;
+    width: 100%;
+    height: 105px;
     font-family: 'Raleway';
     font-size: 18px;
-    text-align: center;
+    margin: 0px;
+}
+
+@media screen and (max-width: 1220px) {
+    .awesome{
+        width: 1120px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .awesome{
+        width: 1000px;
+    }
+    .details{
+        width: 97%;
+    }
+    .details-box__icon{
+        width: 147px;
+        height: 147px;
+    }
+    .details-box__title{
+        font-size: 20px;
+    }
+    .details-box__text{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .container{
+        height: 1180px;
+    }
+    .awesome{
+        width: 992px;
+    }
+    .details-box__title{
+        font-size: 18px;
+    }
+    .details-box__text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    .container{
+        height: 1030px;
+    }
+    .awesome{
+        width: 700px;
+    }
+    .details-box__title{
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 722px) {
+    .awesome{
+        width: 288px;
+    }
+    .container{
+        height: 1530px;
+    }
+    .details{
+        flex-direction: column;
+    }
+    .details-box{
+        width: 100%;
+        height: 280px;
+    }
+    .details-box__title{
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .awesome{
+        width: 255px;
+    }
 }

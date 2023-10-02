@@ -12,10 +12,11 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .reviews-block{
-    width: 370px;
+    width: 30%;
     height: 336px;
 }
 
@@ -64,4 +65,127 @@
     margin: 0px;
     text-align: left;
     padding-left: 100px;
+}
+
+.reviews-block-navigation{
+    display: none;
+}
+
+@media screen and (max-width: 1220px) {
+    .customers{
+        width: 1120px;
+    }
+    .reviews-block-details__text{
+        right: 9px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .customers{
+        width: 1000px;
+    }
+    .reviews-block-details__text{
+        font-size: 16px;
+        top: 20px;
+        right: 11px;
+    }
+    .reviews-block-name{
+        font-size: 18px;
+    }
+    .reviews-block-jobtitle{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .container3{
+        height: 620px;
+    }
+    .customers{
+        width: 992px;
+    }
+    .reviews-block-details__text{
+        font-size: 14px;
+        top: 14px;
+        right: 26px;
+    }
+    .reviews-block-details{
+        height: 150px;
+    }
+    .reviews-block-name{
+        font-size: 18px;
+    }
+    .reviews-block-jobtitle{
+        font-size: 14px;
+    }
+    .reviews{
+        width: 97%;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    .container3{
+        height: 550px;
+    }
+    .customers{
+        width: 700px;
+    }
+    .reviews-block-details__text{
+        font-size: 11px;
+        top: 13px;
+        right: 4px;
+    }
+    .reviews-block-details{
+        height: 120px;
+    }
+    .reviews-block-name{
+        font-size: 11px;
+    }
+    .reviews-block-jobtitle{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 722px) {
+    .customers{
+        width: 288px;
+    }
+    .container3{
+        height: 590px;
+    }
+    .reviews-block-customer1{
+        display: none;
+    }
+    .reviews-block-customer3{
+        display: none;
+    }
+    .reviews-block-navigation{
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .reviews-block{
+        width: 100%;
+    }
+    .reviews-block-details__text{
+        font-size: 13px;
+        top: 3px;
+        right: 27px;
+    }
+    .reviews-block-name{
+        font-size: 13px;
+        font-weight: 700;
+        height: 40px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .customers{
+        width: 250px;
+    }
+    .reviews-block-details__text{
+        top: 0px;
+        right: 7px;
+    }
 }

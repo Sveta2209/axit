@@ -34,3 +34,25 @@
     font-family: 'Raleway';
     font-size: 18px;
 }
+
+@media screen and (max-width: 722px) {
+    .footer-menu{
+        width: 288px;
+    }
+    .footer-details__icon{
+        width: 26px;
+        height: 26px;
+    }
+    .footer-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .footer-menu{
+        width: 255px;
+    }
+    .footer-details{
+        width: 95%;
+    }
+}

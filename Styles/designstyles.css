@@ -30,9 +30,9 @@
 }
 
 .caption-type2__title{
-    width: 1170px;
+    width: 100%;
     height: 90px;
-    padding: 70px 10px 5px 10px;
+    padding: 70px 0px 5px 0px;
     margin: 0 auto;
     font-family:'Raleway';
     font-size: 36px;
@@ -46,7 +46,7 @@
 }
 
 .caption-type2__subtitle{
-    width: 1169px;
+    width: 100%;
     height: 21px;
     color: #FFF;
     font-family:'Raleway';
@@ -54,7 +54,7 @@
     text-align: center;
 }
 
-.design-button_hover_active{
+.design-button{
     color: #FFF;
     width: 370px;
     height: 58px;
@@ -75,4 +75,99 @@
     color: white;
     border: 2px solid #AB4949;
     background-color: #AB4949;
+}
+
+@media screen and (max-width: 1220px) {
+    .design{
+        width: 1110px;
+    }
+    .caption-type2{
+        width: 1110px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .design{
+        width: 1000px;
+    }
+    .caption-type2{
+        width: 1000px;
+    }
+    .caption-type2__title{
+        font-size: 30px;
+    }
+    .caption-type2__line{
+        width: 150px;
+    }
+        .caption__subtitle{
+            font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .design{
+        width: 992px;
+    }
+    .caption-type2{
+        width: 992px;
+    }
+    .caption-type2__title{
+        font-size: 24px;
+        height: 60px;
+    }
+    .caption-type2__subtitle{
+        font-size: 14px;
+    }
+    .caption-type2__line{
+        width: 120px;
+    }
+    .design-button{
+        width: 318px;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    .design{
+        width: 700px;
+    }
+    .caption-type2{
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 722px) {
+    .design{
+        width: 288px;
+        height: 340px;
+    }
+    .caption-type2{
+        width: 288px;
+    }
+    .caption-type2__title{
+        font-size: 18px;
+        height: 60px;
+    }
+    .caption-type2__subtitle{
+        font-size: 13px;
+    }
+    .container4{
+        height: 380px;
+    }
+    .design-button{
+        height: 50px;
+        width: 286px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .design{
+        width: 255px;
+    }
+    .caption-type2{
+        width: 96%;
+    }
+    .design-button{
+        width: 90%;
+    }
 }

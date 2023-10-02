@@ -6,6 +6,7 @@
 
 .contact-details{
     width: 1170px;
+    margin: 0 auto;
     margin-top: 20px;
 }
 
@@ -13,10 +14,11 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .about-me{
-    width: 570px;
+    width: 50%;
     height: 214px;
     display: flex;
     flex-direction: column;
@@ -24,7 +26,7 @@
 }
 
 .about-me__text{
-    width: 567px;
+    width: 100%;
     height: 38px;
     color: #BDBDBD;
     font-family: 'Open Sans';
@@ -35,12 +37,12 @@
 }
 
 .message{
-    width: 570px;
+    width: 45%;
     height: 214px;
 }
 
 .message__text{
-    width: 567px;
+    width: 98%;
     height: 208px;
     color: #BDBDBD;
     font-family: 'Open Sans';
@@ -77,4 +79,86 @@
 .button-about-me__send-message_hover_active:active{
     background-color: rgba(236,121,121,1);
     box-shadow: 0px 0px 10px 0px #AB4949 inset;
+}
+
+@media screen and (max-width: 1220px) {
+    .contact-us{
+        width: 1110px;
+    }
+    .contact-details{
+        width: 1110px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .contact-us{
+        width: 1000px;
+    }
+    .contact-details{
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .contact-us{
+        width: 992px;
+    }
+    .contact-details{
+        width: 992px;
+    }
+    .button-about-me{
+        width: 318px;
+    }
+    .about{
+        width: 97%;
+    }
+    .about-me{
+        margin-left: 15px;
+    }
+}
+
+
+@media screen and (max-width: 1015px) {
+    .contact-us{
+        width: 700px;
+    }
+    .contact-details{
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 722px) {
+    .contact-us{
+        width: 288px;
+        height: 850px;
+    }
+    .contact-details{
+        width: 288px;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about-me{
+        width: 100%;
+        margin: 0px;
+    }
+    .message{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .button-about-me{
+        width: 286px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .contact-us{
+        width: 255px;
+    }
+    .contact-details{
+        width: 250px;
+    }
+    .button-about-me{
+        width: 90%;
+    }
 }
